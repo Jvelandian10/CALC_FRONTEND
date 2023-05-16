@@ -61,14 +61,14 @@ btnDividir.addEventListener(
         if (!validarDatos(num1, num2)) { return }
         realizarOperacion(num1, num2, operacion)
     });
-    
+
 btnBorrar.addEventListener(
     'click',
     (event) => {
         event.preventDefault();
         const div_resultado = document.getElementById("resultado");
         div_resultado.innerHTML = `<input id="pantalla" class="form-control" type="number" name="pantalla" readonly>`;
-        document.getElementById('form-operaciones').reset();
+        document.getElementById('form-operaciones1').reset();
     });
 
 function validarDatos(num1, num2) {

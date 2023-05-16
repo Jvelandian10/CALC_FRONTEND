@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+       
+
+    </header>
+    <nav>
+
+    </nav>
+    <main class="bg-light.bg-gradient d-flex justify-content-center">
+        
+        <form ID="form-operaciones1"> 
+
+            <div class="p-5 border rounded-2 mt-1">
+            <div class="form-group">
+                <label for="num1">Ingrese numero 1</label>
+                <input class="form-control" id="num1" name="num1" type="number" required>
+                 <label for="num2">Ingrese numero 2</label>
+                <input class="form-control"  id="num2" name="num2" type="number" required>
+            
+            </div>
+            </div>             
+             
+             <div class="p-5 border rounded-2">
+                <div class="col-lg-15 col d-flex flex-wrap justify-content-center align-items-center form-group">
+                    <button class="btn btn " type="submit" id="btn-sumar"><img src="Imagen/suma.png.jpg"
+                            alt="icono-sumar"></button>
+                    <button class="btn btn " type="submit" id="btn-restar"><img src="Imagen/resta.png.jpg"
+                            alt="icono-restar"></button>
+                    <button class="btn btn " type="submit" id="btn-multiplicar"><img src="Imagen/multip.png.jpg"
+                            alt="icono-multiplicar"></button>
+                    <button class="btn btn" type="submit" id="btn-dividir"><img src="Imagen/div.png.jpg"
+                            alt="icono-dividir"></button>
+                    </div>
+                    <div>
+                        <button id="btn-borrar" class="btn btn-danger mt-3 d-grid gap-1 col-4 mx-auto" type="submit" >Borrar</button>
+                    </div>
+                            
+                <div class="p-5 border rounded-2 mt-1">
+                     <div class="form-control">
+                            <label>Resultado</label>
+                            <div id="resultado" class="col lg-12 p-2">
+                                <input id="pantalla" class="form-control" type="number" name="pantalla" readonly>
+                            </div>
+                     </div>
+                </div>                     
+
+        </form>
+        
+    </main>
+    <footer>
+
+        <div class="container-SM p-1 bg-DANGER text-black text-center">
+            <h1>Calculadora </h1>
+            <p>@TODOS LOS DERECHOS RESERVADOS</p>
+            <a href="https://www.instagram.com/julianavelndian"> <img src="imagen/insta.png" width="20" height="20"></a>
+            <a href="https://wa.link/6o27qp"><img src="imagen/wha.png" width="20" height="20"><a>
+            <a href="//www.linkedin.com/in/ingjulianavelandian"><img src="imagen/Linkendin.png" width="20" height="20" > </a>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+        <script src="programa.js"></script>
+    </footer>
+    
+</body>
+</html>
